@@ -1,6 +1,6 @@
 -- xmonad config 
--- make sure you have xterm installed or to edit this file to fit your terminal
--- xterm is the default and this file will expect you to have it installed
+-- make sure you have xterm and urxvt installed or to edit this file to fit your terminal
+-- xterm and urxvt are the default and this file will expect you to have it installed
 -- keys are towards the bottom ;)
 
 {-# LANGUAGE
