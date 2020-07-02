@@ -1,6 +1,7 @@
 -- xmonad config 
 -- make sure you have xterm installed or to edit this file to fit your terminal
 -- xterm is the default and this file will expect you to have it installed
+-- keys are towards the bottom ;)
 
 {-# LANGUAGE
      DeriveDataTypeable,
