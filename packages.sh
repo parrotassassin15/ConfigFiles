@@ -1,11 +1,13 @@
-#!/bin/bash 
+#!/bin/sh
+#to install the lastest apt list
+sudo apt-get update -y
+sudo apt-ger upgrade -y
+
+#to install my packages
+sudo apt-get install bluefish vokoscreen openbox obconf wireshark aircrack-ng leafpad xfce4-terminal pcmanfm nitrogen figlet neofetch
 
 
-#install for apt package manager
-sudo apt install bluefish 
 
-#install for pacman package manager
-sudo pacman -S bluefish
 
-#install for yay AUR helper
-yay -S codelite bluefish 
+clear
+figlet "done"
