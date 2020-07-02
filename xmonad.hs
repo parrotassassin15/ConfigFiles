@@ -1,4 +1,4 @@
--- current darcs as of 2010-12-31
+-- xmonad config 
 -- make sure you have xterm installed or to edit this file to fit your terminal
 -- xterm is the default and this file will expect you to have it installed
 
@@ -14,6 +14,9 @@
      UndecidableInstances
      #-}
 {-# OPTIONS_GHC -W -fwarn-unused-imports -fno-warn-missing-signatures #-}
+
+
+---------------- imports---------------
 
 import Control.Applicative
 import Control.Monad
