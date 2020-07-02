@@ -304,11 +304,11 @@ instance ExtensionClass HostPrompt where
 instance XPrompt HostPrompt where showXPrompt _ = "Pick MPD Host: "
 promptHost = mkXPrompt (HostPrompt "") myXPConfig (return . compl) (XS.put . HostPrompt)
     where compl s = nub $ filter (s `isPrefixOf`) ["127.0.0.1","dell"]
---------------------------------------------------------------
+-----------------------------------------------------------------------
 
 warpToCentre = gets (W.screen . W.current . windowset) >>= \x -> warpToScreen x  0.5 0.5
 
--------------------- Support for per-screen xmobars ---------
+-------------------- Support for per-screen xmobars -------------------
 -- Some parts of this should be merged into contrib sometime
 getScreens :: IO [Int]
 getScreens = openDisplay "" >>= liftA2 (<*) f closeDisplay
