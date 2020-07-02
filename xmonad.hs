@@ -188,7 +188,7 @@ myLayout =
                . boringAuto
                . subLayout [] Simplest
                $ mouseResizableTile ||| Full
---------------------------------------------------------------
+
 -------------------- Keys ------------------------------------
 myKeys c =
     [("M-<Left>"   , withFocused $ snapMove L Nothing  )
@@ -352,7 +352,7 @@ xmobarScreen = spawnPipe . ("~/.cabal/bin/xmobar -x " ++) . show
 
 myPP :: PP
 myPP = sjanssenPP { ppLayout = xmobarColor "orange" "", ppUrgent = xmobarColor "red" "" . ('^':) }
---------------------------------------------------------------
+
 
 -------------------- X.Actions.TopicSpace --------------------
 myTopics :: [Topic]
@@ -426,7 +426,7 @@ wsgrid = gridselect gsConfig <=< asks $ map (\x -> (x,x)) . workspaces . config
 promptedGoto = wsgrid >>= flip whenJust (switchTopic myTopicConfig)
 
 promptedShift = wsgrid >>= \x -> whenJust x $ \y -> windows (W.greedyView y . W.shift y)
---------------------------------------------------------------------------------
+
 
 --------------------------------------------------------------------------------
 -- A nice little example of extensiblestate
