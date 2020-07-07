@@ -1,12 +1,6 @@
---
--- xmonad example config file.
---
--- A template showing all available configuration hooks,
--- and how to override the defaults in your own xmonad.hs conf file.
---
--- Normally, you'd only override those defaults you care about.
---
+-- My xmonad Config
 
+-- IMPORTS
 import XMonad
 import Data.Monoid
 import System.Exit
@@ -17,7 +11,7 @@ import qualified Data.Map        as M
 -- The preferred terminal program, which is used in a binding below and by
 -- certain contrib modules.
 --
-myTerminal      = "xterm"
+myTerminal      = " xfce4-terminal"
 
 -- Whether focus follows the mouse pointer.
 myFocusFollowsMouse :: Bool
