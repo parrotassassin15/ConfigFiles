@@ -21,11 +21,15 @@ git clone
 git clone 
 
 #this will move the clones and programs to the right directory
+git clone
 cd routersploit
 mv ./rsf.py /bin/rsfconsole
 cd 
 
-
+#installs metasploit 
+wget https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
+chmod +x metasploit.sh
+./metasploit.sh
 
 #this should end off the program with no errors
 clear
