@@ -20,13 +20,12 @@ git clone
 git clone 
 git clone 
 
-#this will move the clones and programs to the right directory
-git clone https://github.com/threat9/routersploit
+#this install routersploit
+git clone https://github.com/threat9/routersploit.git
 cd routersploit
 mv ./rsf.py /bin/rsfconsole
 cd 
-
-#installs metasploit 
+#this will install metasploit 
 wget https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
 chmod +x metasploit.sh
 ./metasploit.sh
