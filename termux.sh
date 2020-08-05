@@ -21,7 +21,7 @@ git clone
 git clone 
 
 #this will move the clones and programs to the right directory
-git clone
+git clone https://github.com/threat9/routersploit
 cd routersploit
 mv ./rsf.py /bin/rsfconsole
 cd 
