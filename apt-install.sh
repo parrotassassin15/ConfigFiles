@@ -5,7 +5,7 @@ sudo apt-ger upgrade -y
 
 #to install my packages
 sudo apt-get install bluefish vokoscreen xmonad xmobar wireshark aircrack-ng leafpad xfce4-terminal pcmanfm nitrogen figlet neofetch virtualbox irssi
-sudo apt-get install firefox tor-browser-launcher nano vim sudo openssh-server python3-pip git hydra networkmanager -y
+sudo apt-get install firefox nano vim sudo openssh-server python3-pip git hydra -y
 sudo apt-get install cupp dirbuster firejail 
 
 #makes sure your new packages are up to date
