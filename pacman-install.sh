@@ -18,7 +18,7 @@ makepkg -si
 
 #installs my packages
 yay -S bluefish firefox virtualbox xfce4-terminal wireshark nmap dirbuster mpv compton xmonad xmobar xmonad-utils dmenu 
-yay -S firefox firejail tor openssh-server metasploit vlc tor 
+yay -S firefox firejail tor openssh-server metasploit vlc tor figlet
 
 #installs extra stuff
 wget https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_85.0.4183.83-1_amd64.deb
@@ -29,4 +29,4 @@ yay -S keybase-bin
 
 #prints end of program
 clear
-figlet 
+figlet "done"
