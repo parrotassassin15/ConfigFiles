@@ -5,7 +5,7 @@ to use this youll need to have the following done:
 
 <pre>
 git clone https://gitlab.com/dwt1/shell-color-scripts.git
-<pre>
+</pre>
 
 <pre>
 curl -fsSL https://starship.rs/install.sh | bash
