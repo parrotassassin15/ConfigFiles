@@ -1,6 +1,7 @@
 # DISCLAIMER:
 # (these belong to someone else i am just using them in my config)
 
+credit: https://github.com/pltanton/net_widgets
 
 # Network Widgets
 If you use `netctl` or another network manager which doesn't provide any good tray icon or if you want something more native than `nm-applet`, this is for you.
