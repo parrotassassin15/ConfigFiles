@@ -18,4 +18,27 @@ sudo pacman -S fish
 </pre>
 
 
-i hope you like it 
+to make sure the files are in the right place run this command 
+
+<pre>
+cd ; cd custom-prompt
+</pre>
+
+<pre>
+sudo cp -r fish/config.fish ../.config/fish/config.fish
+</pre>
+
+<pre>
+sudo cp -r starship/starship.toml ../.config/starfish.toml
+</pre>
+
+<pre>
+sudo mv shell-color-scripts /opt && sudo cp -r shell-color-scripts/colorscripts/colorscript.sh /usr/bin/colorscript
+</pre>
+
+
+let me know if you have any issues
+
+
+
+
