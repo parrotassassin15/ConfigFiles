@@ -31,7 +31,7 @@ myModMask       = mod1Mask
 
 
 -- WORKSPACE SETTINGS
-myWorkspaces    = ["1","2","3","4","5","6","7","8","9"]
+myWorkspaces    = ["pentesting", "development", "browser", "terminals"]
 
 -- BORDER COLORS
 myNormalBorderColor  = "#dddddd"
