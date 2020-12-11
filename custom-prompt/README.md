@@ -4,6 +4,10 @@
 to use this youll need to have the following done:
 
 <pre>
+git clone https://gitlab.com/dwt1/shell-color-scripts.git
+<pre>
+
+<pre>
 curl -fsSL https://starship.rs/install.sh | bash
 </pre>
 
@@ -33,7 +37,7 @@ sudo cp -r starship/starship.toml ../.config/starfish.toml
 </pre>
 
 <pre>
-sudo mv shell-color-scripts /opt && sudo cp -r shell-color-scripts/colorscripts/colorscript.sh /usr/bin/colorscript
+cd ; sudo mv shell-color-scripts /opt && sudo cp -r shell-color-scripts/colorscripts/colorscript.sh /usr/bin/colorscript
 </pre>
 
 
