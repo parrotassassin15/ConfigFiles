@@ -44,6 +44,4 @@ cd ; sudo mv shell-color-scripts /opt && sudo cp -r shell-color-scripts/colorscr
 let me know if you have any issues
 
 
-# colorscript credit
-# credit to derek taylor (https://gitlab.com/dwt1) 
-
+# credit to derek taylor (https://gitlab.com/dwt1) for the colorscripts
