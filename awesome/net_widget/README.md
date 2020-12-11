@@ -1,4 +1,4 @@
-# discaimer
+# DISCLAIMER:
 # (these belong to someone else i am just using them in my config)
 
 
