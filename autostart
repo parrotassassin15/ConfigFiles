@@ -1,6 +1,0 @@
-/*must have lxpanel, nitrogen, and xfce4-terminal installed
-
-
-lxpanel &
-nitrogen --restore &
-xfce4-terminal &
