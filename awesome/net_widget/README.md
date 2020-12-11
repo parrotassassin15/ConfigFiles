@@ -1,4 +1,4 @@
-# discaimer ( these belone to someone else i am just using them in my config )
+# discaimer (these belong to someone else i am just using them in my config)
 
 
 # Network Widgets
