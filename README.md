@@ -13,7 +13,7 @@ make sure to look at my configs before you decide to use them
 
 general requiurements:
 <pre>
-sudo apt install xmobar compton nitrogen 
+xmobar compton nitrogen nm-applet mate-power-manager 
 </pre>
 
 # disclaimer:
