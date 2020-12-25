@@ -143,7 +143,6 @@ end
 # the end of spark.fish 
 
 # future spark functions 
-;
 
 # end of functions 
 
