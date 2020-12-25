@@ -5,8 +5,6 @@
 set fish_greeting 
 
 # aliases
-#alias ssh-home="ssh jok3rtwin2@174.160.23"
-#alias sound='alsamixer'
 
 # sashimi shell prompt 
 # source  https://github.com/isacikgoz/sashimi
