@@ -292,7 +292,7 @@ globalkeys = gears.table.join(
     awful.key({ modkey, "Shift"  }, "b", function () awful.util.spawn("firefox") end,
               {description = "firefox browser", group = "gui apps"}),
     awful.key({ modkey, "Shift"  }, "d", function () awful.util.spawn("discord") end,
-              {decription = "discord server", group = "gui apps"}),
+              {description = "discord server", group = "gui apps"}),
     awful.key({ modkey, "Control" }, "w", function () awful.util.spawn("nitrogen") end,
               {description = "wallpaper manager", group = "gui apps"}),
     awful.key({ modkey, "Control" }, "v", function () awful.util.spawn("kdenlive") end,
@@ -301,7 +301,8 @@ globalkeys = gears.table.join(
               {description = "dmenu", group = "launcher"}),
     awful.key({ modkey, "Shift" }, "i", function () awful.util.spawn("irssi") end,
               {description = "irc client", group = "terminal apps"}),
-
+    awful.key({ modkey, "Shift" }, "s", function () awful.util.spawn("mate-screenshot") end,
+              {description = "screenshot", group = "awesome"}),
 
     -- layout manipulation 
     -- dont mess with these please 
