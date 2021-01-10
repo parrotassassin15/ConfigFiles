@@ -16,6 +16,8 @@ general requiurements:
 xmobar compton nitrogen nm-applet mate-power-manager 
 </pre>
 
+nm-applet is in mate-utils you dont need mate to use it tho 
+
 # disclaimer:
 # some things in here are credited to the owners
 
