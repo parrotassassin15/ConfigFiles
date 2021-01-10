@@ -631,5 +631,5 @@ awful.util.spawn("mate-power-manager")
 -- Custom Widgets (needs edited)
 -- i havent called them yet so these are useless rn 
 -- make sure to read the docs 
-net_wireless = net_widgets.wireless({interface="wlan0"})
-net_internet = net_widgets.internet({indent = 0, timeout = 5})
+-- net_wireless = net_widgets.wireless({interface="wlan0"})
+-- net_internet = net_widgets.internet({indent = 0, timeout = 5})
