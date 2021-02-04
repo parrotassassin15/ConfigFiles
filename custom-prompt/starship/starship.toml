@@ -1,4 +1,6 @@
+#
 # parrots starship config
+# 
 
 add_newline = false
 
