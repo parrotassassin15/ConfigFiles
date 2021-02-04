@@ -1,0 +1,25 @@
+# parrots starship config
+
+add_newline = false
+
+# makes prompt a single line
+# [line_break]
+
+# this is what customizes users
+[username]
+style_user = "red bold"
+style_root = "black bold"
+format = "❯ [$user]($style)(style)(red bold)"
+disabled = false
+show_always = true
+
+# this is what customizes the hostname 
+[hostname]
+ssh_only = false
+format = "[@](red bold)[$hostname](red bold)"
+disabled = false
+
+# this will disable the info on packages
+# can be annoying at times
+[package]
+disabled = true
