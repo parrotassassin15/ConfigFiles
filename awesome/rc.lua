@@ -1,6 +1,6 @@
 -- 
 --
--- cipherlords awesome window manager config
+-- parrots awesome window manager config
 --
 --
 pcall(require, "luarocks.loader")
@@ -25,7 +25,7 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 
 -- custom added libraries 
 vicious = require("vicious")
-local net_widgets = require("net_widgets")
+-- local net_widgets = require("net_widgets")
 -- Enable hotkeys help widget for VIM and other apps
 -- when client with a matching name is opened:
 require("awful.hotkeys_popup.keys")
@@ -64,7 +64,7 @@ end
 beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
-terminal = "xfce4-terminal"
+terminal = "terminator"
 editor = os.getenv("EDITOR") or "editor"
 editor_cmd = terminal .. " -e " .. editor
 
@@ -202,7 +202,7 @@ awful.screen.connect_for_each_screen(function(s)
     set_wallpaper(s)
 
     -- Each screen has its own tag table.
-    awful.tag({ "Pentesting", "Development", "Browser", "Discord", "VirtualBox" }, s, awful.layout.layouts[1])
+    awful.tag({ "Pentesting", "Development", "Browser", "Discord", "Virtualization", "Connections", }, s, awful.layout.layouts[1])
 
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
