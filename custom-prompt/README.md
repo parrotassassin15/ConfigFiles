@@ -37,7 +37,7 @@ sudo cp -r fish/config.fish ../.config/fish/config.fish
 </pre>
 
 <pre>
-sudo cp -r starship/starship.toml ../.config/starfish.toml
+sudo cp -r starship/starship.toml ../.config/starship.toml
 </pre>
 
 <pre>
