@@ -8,7 +8,11 @@ git clone https://gitlab.com/dwt1/shell-color-scripts.git
 </pre>
 
 <pre>
-curl -fsSL https://starship.rs/install.sh | bash
+git clone https://github.com/parrotassassin15/ConfigFiles
+</pre>
+
+<pre>
+curl -fsSL https://starship.rs/install.sh | sh
 </pre>
 
 for debian:
@@ -25,7 +29,7 @@ sudo pacman -S fish
 to make sure the files are in the right place run this command 
 
 <pre>
-cd ; cd custom-prompt
+cd ConfigFiles/custom-prompt
 </pre>
 
 <pre>
