@@ -5,6 +5,7 @@
 set fish_greeting 
 
 # aliases
+source ~/.bash_aliases
 
 # sashimi shell prompt 
 # source  https://github.com/isacikgoz/sashimi
